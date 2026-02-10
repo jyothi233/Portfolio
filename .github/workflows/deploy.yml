@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: client/public # Vite puts the "baked" files here
+          path: client/dist/public # Vite puts the "baked" files here
 
   deploy:
     environment:
